@@ -20,8 +20,8 @@
 
 
 <!-- Modal -->
-
-    <div class="modal-dialog">
+<div class="container">
+    <div class="modal-dialog ">
         <div class="modal-content">
             <form action="index.jsp" method="post">
             <div class="modal-header">
@@ -82,5 +82,6 @@
             <%}%>
         </div>
     </div>
+</div>
 </body>
 </html>

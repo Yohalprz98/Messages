@@ -17,6 +17,7 @@
 <body>
 <!-- Modal -->
 
+<div class="container">
 <div class="modal-dialog">
     <div class="modal-content">
         <form action="edit.jsp" method="post">
@@ -44,7 +45,7 @@
         </form>
     </div>
 </div>
-
+</div>
     <%
         MessageDao messageDao = new MessageDao();
         String id = request.getParameter("id");

@@ -12,12 +12,14 @@
     <title>Title</title>
 </head>
 <body>
-  <%
+    <div
+        <%
           String id = request.getParameter("id");
           Message message = new Message(Integer.valueOf(id));
           MessageDao messageDao = new MessageDao();
           messageDao.delete(message);
           request.getRequestDispatcher("index.jsp").forward(request, response);
-          %>
+                %>
+    </div>
   </body>
 </html>
